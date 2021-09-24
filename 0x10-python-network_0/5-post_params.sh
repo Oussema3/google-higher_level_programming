@@ -1,3 +1,3 @@
 #!/bin/bash
-# a Bash script that sends a POST request with 2 variables
-curl -s -L -X POST "$1" -d "email=hr%40holbertonschool%2Ecom&subject=I+will+always+be+here+for+PLD"
+# Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response
+curl -s -d "email=hr@holbertonschool.com&subject=I will always be here for PLD" -X POST "$1"
